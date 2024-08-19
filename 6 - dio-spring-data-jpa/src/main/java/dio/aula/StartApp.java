@@ -19,7 +19,7 @@ public class StartApp implements CommandLineRunner {
             System.out.println(u);
         }
     }
-    private void insertUser(){
+    private void insertUser() {
         User user = new User();
         user.setName("GABRIEL NUNES");
         user.setUsername("gabriel");
